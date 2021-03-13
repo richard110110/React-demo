@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## React 基础知识
+JSX语法： Javascript + XML语法
+解读jsx语法： 遇到<>按照HTML语法解析， 遇到{}按照JavaScript
+
+## 元素渲染
+
+## 组件
+
+组件的后缀可以是js，也可以是jsx
+一个React项目， 是由成千上万个组件组成
+
+### props组件
+组件的复用性很重要
