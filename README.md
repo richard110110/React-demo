@@ -83,3 +83,18 @@ JSX语法： Javascript + XML语法
 
 ### props组件
 组件的复用性很重要
+
+### 事件处理
+1. this问题
+2. 向事件处理程序传递参数
+
+### React生命周期函数
+随着我们对React理解和使用越来越多， 生命周期的参考价值越来越高
+函数列表:
+    componentWillMount：在组件渲染之前执行
+    componentDidMount: 在组件渲染之后执行
+    shouldComponentUpdate: 返回true和false， true代表允许改变，false代表不允许改变
+    componentWillUpdate:数据在改变之前执行（state, props）
+    componentDidUpdate: 数据修改完成（state, props)
+    componentWillReceiveProps: props发生改变执行
+    componentWillUnmount: 组件卸载前执行

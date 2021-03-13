@@ -7,6 +7,7 @@ export default class MyNav extends Component {
         //列表渲染
         return (
             <div>
+                <h3>{this.props.title}</h3>
                 <ul>
                     {
                         this.props.nav.map((element, index)=> {

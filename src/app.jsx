@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Home from './Home'
 import MyNav from './MyNav'
+import StateComponent from './StateComponent'
+import ComponentLife from './ComponentLife'
 class App extends Component {
     render() {
 
@@ -10,10 +12,13 @@ class App extends Component {
 
         return (
             <div>
-                <h1>Hello React Component</h1>
+                {/* <h1>Hello React Component</h1>
                 <Home/>
-                <MyNav nav={nav1}/>
-                <MyNav nav={nav2}/>
+                <MyNav nav={nav1} title = "nav1"/>
+                <MyNav nav={nav2} title = "nav2"/> */}
+                {/* <StateComponent/> */}
+                <ComponentLife/>
+
             </div>
         );
     }
