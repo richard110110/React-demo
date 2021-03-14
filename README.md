@@ -98,3 +98,10 @@ JSX语法： Javascript + XML语法
     componentDidUpdate: 数据修改完成（state, props)
     componentWillReceiveProps: props发生改变执行
     componentWillUnmount: 组件卸载前执行
+子传父！！！
+父传子！！！
+
+### setState更新是同步还是异步
+1. setState会引起视图的重绘
+2. setState在可控的情况下是同步, 在非可控的情况下是同步
+

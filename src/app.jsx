@@ -1,9 +1,24 @@
 import React, {Component} from 'react';
-import Home from './Home'
-import MyNav from './MyNav'
-import StateComponent from './StateComponent'
+// import Home from './Home'
+// import MyNav from './MyNav'
+// import StateComponent from './StateComponent'
 import ComponentLife from './ComponentLife'
+import SetStateDemo from './setStateDemo'
 class App extends Component {
+
+    constructor(){
+        super();
+        this.state = {
+            title: "text1"
+        }
+    }
+
+    clickChange = (data) => {
+        this.setState({
+            title: data
+        })
+    }
+
     render() {
 
         const nav1 = ["1", "2", "3"];
@@ -17,7 +32,8 @@ class App extends Component {
                 <MyNav nav={nav1} title = "nav1"/>
                 <MyNav nav={nav2} title = "nav2"/> */}
                 {/* <StateComponent/> */}
-                <ComponentLife/>
+                {/* <ComponentLife title={this.state.title} clickChanges={this.clickChange}/> */}
+                <SetStateDemo/>
 
             </div>
         );
