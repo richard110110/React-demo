@@ -105,3 +105,8 @@ JSX语法： Javascript + XML语法
 1. setState会引起视图的重绘
 2. setState在可控的情况下是同步, 在非可控的情况下是同步
 
+
+### condition render
+
+### list & key
+主要问题是key 

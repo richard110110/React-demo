@@ -4,6 +4,8 @@ import React, {Component} from 'react';
 // import StateComponent from './StateComponent'
 import ComponentLife from './ComponentLife'
 import SetStateDemo from './setStateDemo'
+import IfDemo from "./ifDemo"
+import KeyDemo from './KeyDemo';
 class App extends Component {
 
     constructor(){
@@ -21,8 +23,8 @@ class App extends Component {
 
     render() {
 
-        const nav1 = ["1", "2", "3"];
-        const nav2 = ["web", "java", "node"];
+        // const nav1 = ["1", "2", "3"];
+        // const nav2 = ["web", "java", "node"];
 
 
         return (
@@ -33,7 +35,8 @@ class App extends Component {
                 <MyNav nav={nav2} title = "nav2"/> */}
                 {/* <StateComponent/> */}
                 {/* <ComponentLife title={this.state.title} clickChanges={this.clickChange}/> */}
-                <SetStateDemo/>
+                {/* <SetStateDemo/> */}
+                <IfDemo/>
 
             </div>
         );
