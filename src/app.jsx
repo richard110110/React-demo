@@ -6,6 +6,9 @@ import ComponentLife from './ComponentLife'
 import SetStateDemo from './setStateDemo'
 import IfDemo from "./ifDemo"
 import KeyDemo from './KeyDemo';
+import RefsAndDOM from './RefsAndDOM';
+import RefsForm from './RefsForm';
+import Parent from './components/parent';
 class App extends Component {
 
     constructor(){
@@ -36,8 +39,12 @@ class App extends Component {
                 {/* <StateComponent/> */}
                 {/* <ComponentLife title={this.state.title} clickChanges={this.clickChange}/> */}
                 {/* <SetStateDemo/> */}
-                <IfDemo/>
+                {/* <IfDemo/> */}
+                {/* <RefsAndDOM/> */}
+                {/* <RefsForm/> */}
 
+                <Parent/>
+              
             </div>
         );
     }
